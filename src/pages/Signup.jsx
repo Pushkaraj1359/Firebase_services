@@ -47,6 +47,7 @@ const Signup = () => {
 
     return (
         <div>
+            <h1>signup page</h1>
             <label>Email</label>
             <input onChange={(e)=>setEmail(e.target.value)} type="text" placeholder='enter email' />
             <label>Password</label>

@@ -5,6 +5,7 @@ import { getAuth, createUserWithEmailAndPassword } from 'firebase/auth';
 
 {/* seconde code */}
 import Signup from './pages/Signup';
+import Signin from './pages/Signin';
 
 
 const auth = getAuth(app);
@@ -24,6 +25,9 @@ function App() {
 
       {/* seconde code */}
       <Signup/>
+
+      {/* signin code */}
+      <Signin/>
 
 
     </>
